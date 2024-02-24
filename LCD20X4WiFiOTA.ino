@@ -11,12 +11,12 @@
 #include "WeatherFunctions.h"
 #include "ScrollText.h"
 
-const char* apiKey = "f35a205df5b5b99f9ca991ab6b890e3b";
+const char* apiKey = "Your API Key";
 const char* city = "Karachi";
 
 // WiFi credentials
-const char* ssid = "TP-Link_5045";
-const char* password = "84284365";
+const char* ssid = "Your SSID";
+const char* password = "Your Wifi Password";
 
 // NTP settings
 const char* ntpServer = "pk.pool.ntp.org";
@@ -341,7 +341,7 @@ String getIslamicMonthName(int monthNumber) {
       monthName = "Rajab";
       break;
     case 8:
-      monthName = "Sha'ban";
+      monthName = "Shaban";
       break;
     case 9:
       monthName = "Ramadan";
